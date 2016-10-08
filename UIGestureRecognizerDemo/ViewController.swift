@@ -23,7 +23,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate {
         doubleTapGesture = UITapGestureRecognizer(target: self, action: #selector(ViewController.didDoubleTap(_:)))
         doubleTapGesture.numberOfTapsRequired = 2
         rotationGesture = UIRotationGestureRecognizer(target: self, action: #selector(ViewController.didRotate(_:)))
-        
+        // my fancy change
         let swipe = UISwipeGestureRecognizer()
         image.addGestureRecognizer(tapGesture)
         image.addGestureRecognizer(rotationGesture)
